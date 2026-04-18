@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Monoton, Space_Mono } from "next/font/google"
+import { DM_Sans, Monoton, Space_Mono } from "next/font/google"
 
 import { cn } from "@/lib/utils"
 import { Iphone } from "@/components/ui/iphone"
@@ -26,6 +26,11 @@ const body = Space_Mono({
   weight: ["400", "700"],
   subsets: ["latin"],
   variable: "--v1-body",
+})
+const readable = DM_Sans({
+  weight: ["400", "500"],
+  subsets: ["latin"],
+  variable: "--v1-readable",
 })
 
 const STRIP = [
@@ -81,6 +86,7 @@ export default function Page() {
       className={cn(
         display.variable,
         body.variable,
+        readable.variable,
         "relative min-h-dvh overflow-x-clip bg-[#07070A] text-[#F7F3EA] [font-family:var(--v1-body)] selection:bg-[#FF2D95] selection:text-black"
       )}
     >
@@ -538,10 +544,24 @@ export default function Page() {
       {/* FOOTER */}
       <footer className="relative z-10 px-6 py-12 sm:px-10">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-6 border-t border-[#F7F3EA]/10 pt-8 text-[0.7rem] tracking-[0.25em] text-[#F7F3EA]/50 uppercase">
-          <span>© 2026 Earthquake Games</span>
+          <div className="flex flex-col gap-1">
+            <span>© 2026 Earthquake Games</span>
+            <span>
+              A brand of{" "}
+              <a
+                href="https://earthquakedigital.com.br"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#F7F3EA]/70 no-underline hover:text-[#FF2D95] hover:no-underline"
+              >
+                Earthquake Digital
+              </a>{" "}
+              Serviços de Audiovisual LTDA
+            </span>
+          </div>
           <a
             href="mailto:suporte@earthquakedigital.com.br"
-            className="text-[#F7F3EA]/70 no-underline hover:text-[#FF2D95] hover:no-underline"
+            className="text-[0.85rem] normal-case tracking-normal [font-family:var(--v1-readable)] text-[#F7F3EA]/80 no-underline hover:text-[#FF2D95] hover:no-underline"
           >
             suporte@earthquakedigital.com.br
           </a>

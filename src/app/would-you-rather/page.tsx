@@ -1130,7 +1130,21 @@ export default function WouldYouRather() {
       {/* FOOTER */}
       <footer className="relative z-10 px-6 py-12 sm:px-10">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-6 border-t border-[#F7F3EA]/10 pt-8 text-[0.7rem] tracking-[0.25em] text-[#F7F3EA]/50 uppercase">
-          <span>© 2026 Earthquake Games</span>
+          <div className="flex flex-col gap-1">
+            <span>© 2026 Earthquake Games</span>
+            <span>
+              A brand of{" "}
+              <a
+                href="https://earthquakedigital.com.br"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#F7F3EA]/70 no-underline hover:text-[#FF2D95] hover:no-underline"
+              >
+                Earthquake Digital
+              </a>{" "}
+              Serviços de Audiovisual LTDA
+            </span>
+          </div>
           <div className="flex items-center gap-6">
             <Link
               href="/would-you-rather/privacy/"
