@@ -3,6 +3,58 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
+@media (prefers-reduced-motion: reduce) {
+  html,
+  body {
+    scroll-behavior: auto;
+  }
+}
+
+/* Branded scrollbar — Firefox fallback (no gradients available) */
+html {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #FF2D95 #0A0A0E;
+}
+
+/* Branded scrollbar — WebKit / Chromium (gradient thumb) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0E;
+  border-left: 1px solid rgba(247, 243, 234, 0.06);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #FF2D95 0%,
+    #FF5FAE 35%,
+    #FFDE59 65%,
+    #00F0FF 100%
+  );
+  border: 2px solid #0A0A0E;
+  border-radius: 999px;
+  box-shadow: 0 0 10px rgba(255, 45, 149, 0.4);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #FF2D95 0%,
+    #00F0FF 100%
+  );
+  box-shadow: 0 0 14px rgba(255, 45, 149, 0.65);
+}
+::-webkit-scrollbar-corner {
+  background: #0A0A0E;
+}
+
 :root {
   --background: #0f0f11;
   --foreground: #e4e2e4;

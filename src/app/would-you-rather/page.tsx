@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import { Monoton, Space_Mono } from "next/font/google"
 
@@ -188,13 +189,13 @@ export default function WouldYouRather() {
       className={cn(
         display.variable,
         body.variable,
-        "relative min-h-dvh overflow-x-hidden bg-[#07070A] text-[#F7F3EA] [font-family:var(--v1-body)] selection:bg-[#FF2D95] selection:text-black"
+        "relative min-h-dvh overflow-x-clip bg-[#07070A] text-[#F7F3EA] [font-family:var(--v1-body)] selection:bg-[#FF2D95] selection:text-black"
       )}
     >
       {/* grain */}
       <div
         aria-hidden
-        className="pointer-events-none fixed inset-0 z-[1] opacity-[0.10] mix-blend-overlay"
+        className="pointer-events-none fixed inset-0 z-1 opacity-[0.10] mix-blend-overlay"
         style={{
           backgroundImage:
             "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.7'/></svg>\")",
@@ -203,7 +204,7 @@ export default function WouldYouRather() {
       {/* radial glow */}
       <div
         aria-hidden
-        className="pointer-events-none fixed inset-0 z-[1]"
+        className="pointer-events-none fixed inset-0 z-1"
         style={{
           background:
             "radial-gradient(1200px 800px at 80% -10%, rgba(255,45,149,0.25), transparent 60%), radial-gradient(1000px 700px at -10% 30%, rgba(0,240,255,0.18), transparent 60%), radial-gradient(900px 700px at 50% 110%, rgba(255,222,89,0.15), transparent 60%)",
@@ -228,10 +229,17 @@ export default function WouldYouRather() {
           href="/"
           className="group inline-flex items-center gap-2 text-[0.72rem] uppercase tracking-[0.25em] text-[#F7F3EA]/80 no-underline hover:text-[#FF2D95] hover:no-underline"
         >
-          <span className="grid size-8 place-items-center rounded-full border border-[#F7F3EA]/30 transition-colors group-hover:border-[#FF2D95] group-hover:text-[#FF2D95]">
-            ←
+          <span className="grid size-9 place-items-center overflow-hidden rounded-full border border-[#F7F3EA]/30 bg-black transition-colors group-hover:border-[#FF2D95]">
+            <Image
+              src="/LOGO-RAIO.png"
+              alt="Earthquake Games"
+              width={36}
+              height={36}
+              className="size-full object-contain"
+              priority
+            />
           </span>
-          Earthquake / Games
+          Earthquake Games / WYR
         </Link>
         <nav className="hidden items-center gap-7 text-[0.72rem] uppercase tracking-[0.25em] text-[#F7F3EA]/70 md:flex">
           <a href="#play" className="hover:text-[#FF2D95] hover:no-underline">
@@ -254,9 +262,24 @@ export default function WouldYouRather() {
           href="https://apps.apple.com/app/would-you-rather-game/id6762091119"
           target="_blank"
           rel="noreferrer"
-          className="rounded-full border border-[#F7F3EA]/30 px-4 py-2 text-[0.7rem] uppercase tracking-[0.25em] text-[#F7F3EA] no-underline transition-colors hover:border-[#FF2D95] hover:text-[#FF2D95] hover:no-underline"
+          className="group relative inline-flex items-center gap-2 rounded-full bg-linear-to-r from-[#FF2D95] via-[#FF5FAE] to-[#FFB547] px-5 py-2.5 text-[0.72rem] font-bold uppercase tracking-[0.25em] text-black no-underline shadow-[0_0_24px_rgba(255,45,149,0.55)] ring-1 ring-white/30 transition-all duration-300 hover:scale-[1.04] hover:shadow-[0_0_40px_rgba(255,45,149,0.9)] hover:no-underline"
         >
-          App Store ↗
+          <span
+            aria-hidden
+            className="pointer-events-none absolute -inset-1 -z-10 animate-pulse rounded-full bg-[#FF2D95]/55 opacity-75 blur-lg"
+          />
+          <span
+            aria-hidden
+            className="inline-block size-1.5 animate-pulse rounded-full bg-black"
+          />
+          <span aria-hidden className="text-[0.95rem] leading-none"></span>
+          <span>Get it free</span>
+          <span
+            aria-hidden
+            className="transition-transform duration-300 group-hover:translate-x-0.5"
+          >
+            ↗
+          </span>
         </a>
       </header>
 
@@ -455,7 +478,7 @@ export default function WouldYouRather() {
                 <SparklesText
                   colors={{ first: "#FF2D95", second: "#00F0FF" }}
                   sparklesCount={6}
-                  className="text-[inherit]"
+                  className="text-inherit"
                 >
                   How it plays.
                 </SparklesText>
@@ -608,8 +631,8 @@ export default function WouldYouRather() {
             </div>
 
             {/* Phone screenshot on the right */}
-            <div className="relative flex justify-center lg:justify-end">
-              <div className="relative w-[min(68%,300px)] -rotate-[3deg]">
+            <div className="relative flex justify-center top-22">
+              <div className="relative w-[min(68%,300px)] -rotate-3">
                 <div
                   aria-hidden
                   className="pointer-events-none absolute -inset-6 -z-10 rounded-full opacity-60 blur-2xl"
@@ -640,14 +663,14 @@ export default function WouldYouRather() {
                 style={
                   c.featured
                     ? {
-                        background:
-                          "linear-gradient(135deg, rgba(255,45,149,0.12), rgba(0,240,255,0.06))",
-                      }
+                      background:
+                        "linear-gradient(135deg, rgba(255,45,149,0.12), rgba(0,240,255,0.06))",
+                    }
                     : c.locked
                       ? {
-                          background:
-                            "linear-gradient(135deg, rgba(255,45,149,0.10), rgba(255,45,149,0) 70%)",
-                        }
+                        background:
+                          "linear-gradient(135deg, rgba(255,45,149,0.10), rgba(255,45,149,0) 70%)",
+                      }
                       : undefined
                 }
               >
@@ -1052,7 +1075,7 @@ export default function WouldYouRather() {
           </div>
 
           <div className="relative flex justify-center lg:justify-end">
-            <div className="relative w-[min(62%,260px)] rotate-[6deg]">
+            <div className="relative w-[min(62%,260px)] rotate-6">
               <div
                 aria-hidden
                 className="pointer-events-none absolute -inset-8 -z-10 rounded-full opacity-60 blur-3xl"
@@ -1073,7 +1096,7 @@ export default function WouldYouRather() {
       <div className="relative z-20 overflow-hidden border-y border-[#00F0FF]/30 bg-[#0A0A0E]/70 [font-family:var(--v1-display)]">
         <Marquee
           reverse
-          className="[--duration:26s] py-3 text-[1.3rem] tracking-[0.1em] uppercase"
+          className="[--duration:26s] py-3 text-[1.3rem] tracking-widest uppercase"
         >
           {[
             "Would",

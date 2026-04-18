@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { Monoton, Space_Mono } from "next/font/google"
 
@@ -80,13 +81,13 @@ export default function Page() {
       className={cn(
         display.variable,
         body.variable,
-        "relative min-h-dvh overflow-x-hidden bg-[#07070A] text-[#F7F3EA] [font-family:var(--v1-body)] selection:bg-[#FF2D95] selection:text-black"
+        "relative min-h-dvh overflow-x-clip bg-[#07070A] text-[#F7F3EA] [font-family:var(--v1-body)] selection:bg-[#FF2D95] selection:text-black"
       )}
     >
       {/* grain + vignette */}
       <div
         aria-hidden
-        className="pointer-events-none fixed inset-0 z-[1] opacity-[0.10] mix-blend-overlay"
+        className="pointer-events-none fixed inset-0 z-1 opacity-[0.10] mix-blend-overlay"
         style={{
           backgroundImage:
             "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.7'/></svg>\")",
@@ -94,7 +95,7 @@ export default function Page() {
       />
       <div
         aria-hidden
-        className="pointer-events-none fixed inset-0 z-[1]"
+        className="pointer-events-none fixed inset-0 z-1"
         style={{
           background:
             "radial-gradient(1200px 800px at 80% -10%, rgba(255,45,149,0.25), transparent 60%), radial-gradient(1000px 700px at -10% 30%, rgba(0,240,255,0.18), transparent 60%), radial-gradient(900px 700px at 50% 110%, rgba(255,222,89,0.15), transparent 60%)",
@@ -119,10 +120,17 @@ export default function Page() {
           href="/"
           className="group inline-flex items-center gap-2 text-[0.72rem] uppercase tracking-[0.25em] text-[#F7F3EA]/80 no-underline hover:text-[#FF2D95] hover:no-underline"
         >
-          <span className="grid size-8 place-items-center rounded-full border border-[#F7F3EA]/30 transition-colors group-hover:border-[#FF2D95] group-hover:text-[#FF2D95]">
-            ⌂
+          <span className="grid size-9 place-items-center overflow-hidden rounded-full border border-[#F7F3EA]/30 bg-black transition-colors group-hover:border-[#FF2D95]">
+            <Image
+              src="/LOGO-RAIO.png"
+              alt="Earthquake Games"
+              width={36}
+              height={36}
+              className="size-full object-contain"
+              priority
+            />
           </span>
-          Earthquake / Home
+          Earthquake Games / Home
         </Link>
         <nav className="hidden items-center gap-7 text-[0.72rem] uppercase tracking-[0.25em] text-[#F7F3EA]/70 md:flex">
           <a href="#games" className="hover:text-[#FF2D95] hover:no-underline">
@@ -215,7 +223,7 @@ export default function Page() {
             {/* floating tape label */}
             <div
               aria-hidden
-              className="absolute top-0 right-0 hidden rotate-[6deg] lg:block"
+              className="absolute top-0 right-0 hidden rotate-6 lg:block"
             >
               <div className="border border-[#00F0FF]/50 bg-[#0A0A0E]/80 px-3 py-1 text-[0.6rem] tracking-[0.4em] text-[#00F0FF] uppercase">
                 Cat. No. EQG / 01 — 03
@@ -230,7 +238,7 @@ export default function Page() {
               target="_blank"
               rel="noreferrer"
               aria-label="Download Would You Rather on the App Store"
-              className="group relative block w-[min(78%,360px)] rotate-[6deg] no-underline transition-transform duration-500 hover:rotate-0 hover:no-underline"
+              className="group relative block w-[min(78%,360px)] rotate-6 no-underline transition-transform duration-500 hover:rotate-0 hover:no-underline"
             >
               {/* halo */}
               <div
@@ -316,7 +324,7 @@ export default function Page() {
                 <SparklesText
                   colors={{ first: "#FF2D95", second: "#00F0FF" }}
                   sparklesCount={7}
-                  className="text-[inherit]"
+                  className="text-inherit"
                 >
                   Three pocket worlds.
                 </SparklesText>
@@ -335,7 +343,7 @@ export default function Page() {
                 <div className="group relative h-full overflow-hidden rounded-3xl border border-[#F7F3EA]/10 bg-[#0B0B10] transition-all duration-500 hover:-translate-y-1 hover:border-[#FF2D95]/40">
                   <div
                     className={cn(
-                      "relative aspect-[4/5] overflow-hidden bg-gradient-to-br",
+                      "relative aspect-4/5 overflow-hidden bg-linear-to-br",
                       g.swatch
                     )}
                   >
@@ -380,7 +388,7 @@ export default function Page() {
                     {isLive && (
                       <div
                         aria-hidden
-                        className="pointer-events-none absolute top-[18%] right-[-7%] z-[5] w-[36%] rotate-[9deg] drop-shadow-[0_18px_30px_rgba(0,0,0,0.55)] transition-transform duration-500 group-hover:rotate-[4deg] group-hover:-translate-y-1"
+                        className="pointer-events-none absolute top-[18%] right-[-7%] z-5 w-[36%] rotate-[9deg] drop-shadow-[0_18px_30px_rgba(0,0,0,0.55)] transition-transform duration-500 group-hover:rotate-[4deg] group-hover:-translate-y-1"
                       >
                         <div
                           aria-hidden
@@ -497,7 +505,7 @@ export default function Page() {
       <div className="relative z-20 overflow-hidden border-y border-[#00F0FF]/30 bg-[#0A0A0E]/70 [font-family:var(--v1-display)]">
         <Marquee
           reverse
-          className="[--duration:28s] py-3 text-[1.3rem] tracking-[0.1em] uppercase"
+          className="[--duration:28s] py-3 text-[1.3rem] tracking-widest uppercase"
         >
           {[
             "Earthquake",
