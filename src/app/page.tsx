@@ -346,7 +346,7 @@ export default function Page() {
             {GAMES.map((g) => {
               const isLive = g.tag === "Live"
               const Card = (
-                <div className="group relative h-full overflow-hidden rounded-3xl border border-[#F7F3EA]/10 bg-[#0B0B10] transition-all duration-500 hover:-translate-y-1 hover:border-[#FF2D95]/40">
+                <div className="group relative h-full overflow-hidden rounded-3xl border border-[#F7F3EA]/10 bg-[#0B0B10] transition-all duration-500 hover:-translate-y-4 hover:border-[#FF2D95]/40">
                   <div
                     className={cn(
                       "relative aspect-4/5 overflow-hidden bg-linear-to-br",
