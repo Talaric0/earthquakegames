@@ -1,0 +1,135 @@
+import type { Metadata } from "next";
+import { LegalLayout } from "@/components/legal-layout";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Would You Rather - Game",
+};
+
+export default function Privacy() {
+  return (
+    <LegalLayout title="Privacy Policy" lastUpdated="17 April 2026">
+      <p>
+        This Privacy Policy describes how Earthquake Games (&quot;we&quot;,
+        &quot;our&quot;, or &quot;us&quot;) collects, uses, and shares
+        information when you use the &quot;Would You Rather - Game&quot; mobile
+        application (the &quot;App&quot;).
+      </p>
+
+      <h3>1. Information We Collect</h3>
+      <p>
+        <strong>Anonymous Identifier.</strong> When you first open the App, we
+        create an anonymous account using Firebase Authentication. This
+        generates a random user ID that is not linked to your name, email, or
+        any personal information. We use this ID to save your votes, purchases,
+        and game progress.
+      </p>
+      <p>
+        <strong>Usage Data.</strong> We collect anonymous analytics data through
+        Firebase Analytics, including which features you use, questions
+        answered, and general app interaction patterns. This data is aggregated
+        and does not identify you personally.
+      </p>
+      <p>
+        <strong>Advertising Data.</strong> If you are on the free tier, the App
+        may display ads. Our advertising partners may collect device
+        identifiers (such as the IDFA on iOS) to serve relevant ads, but only
+        if you grant permission through Apple&apos;s App Tracking Transparency
+        prompt. If you decline tracking, only non-personalised ads are shown.
+      </p>
+      <p>
+        <strong>Purchase Information.</strong> In-app purchases are processed
+        entirely by Apple through the App Store. We do not collect or store
+        your payment information, credit card details, or Apple ID. We only
+        receive confirmation that a purchase was completed, which we store to
+        unlock the corresponding content.
+      </p>
+
+      <h3>2. How We Use Your Information</h3>
+      <ul>
+        <li>
+          To provide and maintain the App&apos;s functionality (saving votes,
+          tracking game progress, syncing purchases)
+        </li>
+        <li>To display community vote results (aggregated and anonymous)</li>
+        <li>To serve advertisements to free-tier users</li>
+        <li>To analyse app performance and improve the user experience</li>
+        <li>To detect and prevent fraud or abuse</li>
+      </ul>
+
+      <h3>3. Data Sharing</h3>
+      <p>
+        We do not sell your personal information. We share data only with the
+        following categories of service providers:
+      </p>
+      <ul>
+        <li>
+          <strong>Firebase (Google)</strong> — authentication, database,
+          analytics, and crash reporting
+        </li>
+        <li>
+          <strong>Advertising partners</strong> — ad networks that serve ads in
+          the free tier, subject to your tracking consent
+        </li>
+        <li>
+          <strong>Apple</strong> — for in-app purchase processing and App Store
+          analytics
+        </li>
+      </ul>
+
+      <h3>4. Data Retention</h3>
+      <p>
+        Your anonymous user data (votes, purchases, rewards) is retained as
+        long as your account exists. Since accounts are anonymous, there is no
+        way for us to identify which data belongs to a specific person. If you
+        delete the App, your local data is removed from your device.
+        Server-side data associated with your anonymous ID is retained for
+        service continuity.
+      </p>
+
+      <h3>5. Children&apos;s Privacy</h3>
+      <p>
+        The App is rated 17+ on the App Store due to the availability of adult
+        content (which requires a separate purchase and age verification). We
+        do not knowingly collect information from children under 17. The adult
+        content tier is gated behind a date-of-birth verification screen.
+      </p>
+
+      <h3>6. Your Rights</h3>
+      <p>
+        Depending on your jurisdiction, you may have the right to access,
+        correct, or delete your data. Users in Brazil are entitled to the
+        rights provided by the Lei Geral de Proteção de Dados (LGPD, Lei n.º
+        13.709/2018), including confirmation of data processing, access to
+        your data, correction, anonymisation, deletion, and portability. Since
+        we only store anonymous identifiers, we cannot identify your specific
+        data without your device&apos;s anonymous user ID. To exercise your
+        rights, contact us at the email below with your anonymous user ID
+        (available in the App&apos;s Settings screen).
+      </p>
+
+      <h3>7. Security</h3>
+      <p>
+        We use industry-standard security measures including encrypted
+        connections (HTTPS/TLS), Firebase security rules that restrict data
+        access to authenticated users, and Firestore rules that scope user
+        data to individual anonymous accounts.
+      </p>
+
+      <h3>8. Changes to This Policy</h3>
+      <p>
+        We may update this Privacy Policy from time to time. We will notify
+        users of significant changes by updating the &quot;Last updated&quot;
+        date at the top of this page. Continued use of the App after changes
+        constitutes acceptance of the updated policy.
+      </p>
+
+      <h3>9. Contact Us</h3>
+      <p>If you have questions about this Privacy Policy, contact us at:</p>
+      <p>
+        <a href="mailto:suporte@earthquakedigital.com.br">
+          suporte@earthquakedigital.com.br
+        </a>
+      </p>
+    </LegalLayout>
+  );
+}
