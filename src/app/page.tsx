@@ -238,7 +238,7 @@ export default function Page() {
           </div>
 
           {/* iPhone block — clickable, slideshows WYR onboarding */}
-          <div className="relative flex justify-center lg:justify-end">
+          <div className="relative flex justify-center">
             <a
               href="https://apps.apple.com/app/would-you-rather-game/id6762091119"
               target="_blank"
