@@ -3,6 +3,9 @@ import { LegalLayout } from "@/components/legal-layout";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Would You Rather - Game",
+  description:
+    "Privacy Policy for the Would You Rather game by Earthquake Games.",
+  alternates: { canonical: "/would-you-rather/privacy/" },
 };
 
 export default function Privacy() {

@@ -3,6 +3,9 @@ import { LegalLayout } from "@/components/legal-layout";
 
 export const metadata: Metadata = {
   title: "Terms of Service | Would You Rather - Game",
+  description:
+    "Terms of Service for the Would You Rather game by Earthquake Games.",
+  alternates: { canonical: "/would-you-rather/terms/" },
 };
 
 export default function Terms() {

@@ -11,11 +11,37 @@ import { NumberTicker } from "@/components/ui/number-ticker"
 import { SparklesText } from "@/components/ui/sparkles-text"
 import { ShimmerButton } from "@/components/ui/shimmer-button"
 
+import { SITE, absoluteUrl } from "@/lib/site"
 import { HeroPhoneSlideshow } from "./would-you-rather/HeroPhoneSlideshow"
 import screenSplash from "./would-you-rather/assets/screen-splash.png"
 import screenChoose from "./would-you-rather/assets/screen-choose.png"
 import screenTap from "./would-you-rather/assets/screen-tap.png"
 import screenResultsDemo from "./would-you-rather/assets/screen-results-demo.png"
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE.url}/#organization`,
+      name: SITE.name,
+      url: SITE.url,
+      logo: absoluteUrl("/LOGO-RAIO.png"),
+      email: SITE.email,
+      description: SITE.description,
+      parentOrganization: { "@type": "Organization", name: SITE.parentCompany },
+      sameAs: [SITE.appStoreUrl],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE.url}/#website`,
+      name: SITE.name,
+      url: SITE.url,
+      publisher: { "@id": `${SITE.url}/#organization` },
+      inLanguage: "en-GB",
+    },
+  ],
+}
 
 const display = Monoton({
   weight: "400",
@@ -90,6 +116,11 @@ export default function Page() {
         "relative min-h-dvh overflow-x-clip bg-[#07070A] text-[#F7F3EA] [font-family:var(--v1-body)] selection:bg-[#FF2D95] selection:text-black"
       )}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* grain + vignette */}
       <div
         aria-hidden

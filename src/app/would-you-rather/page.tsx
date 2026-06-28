@@ -20,12 +20,67 @@ import screenResults from "./assets/screen-results.png"
 import screenParty from "./assets/screen-party.png"
 import screenCategories from "./assets/screen-categories.png"
 
+import { SITE } from "@/lib/site"
 import { HeroPhoneSlideshow } from "./HeroPhoneSlideshow"
 
+const WYR_DESCRIPTION =
+  "Two impossible options. One global verdict. Would You Rather is the ultimate choice game for your phone and your group chat — vote, see how the world splits, and find out if you're in the majority or the weird 4%."
+
 export const metadata: Metadata = {
-  title: "Would You Rather — Game | Earthquake Games",
-  description:
-    "Two impossible options. One global verdict. The ultimate choice game for your phone and your group chat.",
+  title: "Would You Rather — The Ultimate Choice Game",
+  description: WYR_DESCRIPTION,
+  keywords: [
+    "would you rather",
+    "would you rather game",
+    "choice game",
+    "party game",
+    "group chat game",
+    "iOS party game",
+  ],
+  alternates: {
+    canonical: "/would-you-rather/",
+  },
+  openGraph: {
+    type: "website",
+    siteName: SITE.name,
+    title: "Would You Rather — The Ultimate Choice Game",
+    description: WYR_DESCRIPTION,
+    url: "/would-you-rather/",
+    locale: SITE.locale,
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Would You Rather — the ultimate choice game",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Would You Rather — The Ultimate Choice Game",
+    description: WYR_DESCRIPTION,
+    images: ["/og.png"],
+  },
+}
+
+const wyrJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "Would You Rather",
+  applicationCategory: "GameApplication",
+  operatingSystem: "iOS",
+  url: `${SITE.url}/would-you-rather/`,
+  downloadUrl: SITE.appStoreUrl,
+  installUrl: SITE.appStoreUrl,
+  description: WYR_DESCRIPTION,
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.8",
+    ratingCount: "1700",
+  },
+  publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
 }
 
 const display = Monoton({
@@ -192,6 +247,11 @@ export default function WouldYouRather() {
         "relative min-h-dvh overflow-x-clip bg-[#07070A] text-[#F7F3EA] [font-family:var(--v1-body)] selection:bg-[#FF2D95] selection:text-black"
       )}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(wyrJsonLd) }}
+      />
+
       {/* grain */}
       <div
         aria-hidden
