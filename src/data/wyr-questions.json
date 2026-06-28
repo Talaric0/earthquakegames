@@ -1,0 +1,1272 @@
+{
+  "generatedAt": "2026-06-28T17:18:27.257Z",
+  "source": "wyr free_questions.json + pro_questions.json",
+  "perCategoryCap": 20,
+  "totals": {
+    "categories": 10,
+    "exposed": 200,
+    "fullCatalogue": 836
+  },
+  "categories": {
+    "Fame & Fortune": {
+      "fullCount": 46,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Be famous in this lifetime",
+          "option_a_votes": 927666,
+          "option_b": "Go down in the history books",
+          "option_b_votes": 838798
+        },
+        {
+          "option_a": "Be a rock star",
+          "option_a_votes": 548073,
+          "option_b": "Be a movie star",
+          "option_b_votes": 1194911
+        },
+        {
+          "option_a": "Live until 80 in poverty",
+          "option_a_votes": 596519,
+          "option_b": "Live until 40 in riches",
+          "option_b_votes": 1137460
+        },
+        {
+          "option_a": "Win the lottery",
+          "option_a_votes": 1082880,
+          "option_b": "Live twice as long",
+          "option_b_votes": 592839
+        },
+        {
+          "option_a": "Get $20,000 worth of jewelry",
+          "option_a_votes": 625499,
+          "option_b": "Get $10,000 worth of electronics",
+          "option_b_votes": 1047537
+        },
+        {
+          "option_a": "Be rich",
+          "option_a_votes": 1297722,
+          "option_b": "Be famous",
+          "option_b_votes": 364681
+        },
+        {
+          "option_a": "Win an Oscar",
+          "option_a_votes": 565363,
+          "option_b": "Win the Nobel Prize",
+          "option_b_votes": 1094926
+        },
+        {
+          "option_a": "Live an average life and be forgotten in time",
+          "option_a_votes": 1123889,
+          "option_b": "Go down in history for something terrible",
+          "option_b_votes": 520519
+        },
+        {
+          "option_a": "Be credited with the invention of the wheel",
+          "option_a_votes": 219267,
+          "option_b": "Be credited with the invention of the Internet",
+          "option_b_votes": 1398003
+        },
+        {
+          "option_a": "Have a 1st Edition Holographic Charizard",
+          "option_a_votes": 868917,
+          "option_b": "Get $20",
+          "option_b_votes": 732585
+        },
+        {
+          "option_a": "Have your face on the $1 bill",
+          "option_a_votes": 580691,
+          "option_b": "Have your face on the $100 bill",
+          "option_b_votes": 1007444
+        },
+        {
+          "option_a": "Have paparazzi follow you around",
+          "option_a_votes": 940447,
+          "option_b": "Reveal a different secret about yourself in a weekly newspaper column",
+          "option_b_votes": 628357
+        },
+        {
+          "option_a": "Be John Lennon",
+          "option_a_votes": 824444,
+          "option_b": "Be Paul McCartney",
+          "option_b_votes": 742530
+        },
+        {
+          "option_a": "Be a famous rapper",
+          "option_a_votes": 1006964,
+          "option_b": "Be a notorious mobster",
+          "option_b_votes": 554023
+        },
+        {
+          "option_a": "Win the World Series",
+          "option_a_votes": 647286,
+          "option_b": "Win the Superbowl",
+          "option_b_votes": 912762
+        },
+        {
+          "option_a": "Be a sports star",
+          "option_a_votes": 808826,
+          "option_b": "Be a celebrated academic",
+          "option_b_votes": 746162
+        },
+        {
+          "option_a": "Spend a day with Taylor Swift",
+          "option_a_votes": 770249,
+          "option_b": "Spend a day with Beyonce",
+          "option_b_votes": 770462
+        },
+        {
+          "option_a": "Be Matt Damon",
+          "option_a_votes": 967943,
+          "option_b": "Be Ben Affleck",
+          "option_b_votes": 531821
+        },
+        {
+          "option_a": "Be Napoleon",
+          "option_a_votes": 573896,
+          "option_b": "Be Julius Caesar",
+          "option_b_votes": 907685
+        },
+        {
+          "option_a": "Have a college/university named after you",
+          "option_a_votes": 809577,
+          "option_b": "Have a sports stadium named after you",
+          "option_b_votes": 610413
+        }
+      ]
+    },
+    "Dark": {
+      "fullCount": 130,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Burn to death",
+          "option_a_votes": 554364,
+          "option_b": "Drown",
+          "option_b_votes": 1210010
+        },
+        {
+          "option_a": "Have no tongue",
+          "option_a_votes": 654548,
+          "option_b": "Have no teeth",
+          "option_b_votes": 1099200
+        },
+        {
+          "option_a": "Have no hands",
+          "option_a_votes": 496086,
+          "option_b": "Have a naked fat guy stalking you at all times",
+          "option_b_votes": 1250802
+        },
+        {
+          "option_a": "Be the first killed in a group",
+          "option_a_votes": 852748,
+          "option_b": "Be the last killed in a group",
+          "option_b_votes": 874734
+        },
+        {
+          "option_a": "Be blind",
+          "option_a_votes": 643316,
+          "option_b": "Be dumb",
+          "option_b_votes": 1076553
+        },
+        {
+          "option_a": "Be stabbed in the stomach 10 times",
+          "option_a_votes": 774447,
+          "option_b": "Be shot in both kneecaps",
+          "option_b_votes": 937709
+        },
+        {
+          "option_a": "Lose your preferred hand",
+          "option_a_votes": 522469,
+          "option_b": "Lose your preferred foot",
+          "option_b_votes": 1180299
+        },
+        {
+          "option_a": "Steal an elderly woman's purse",
+          "option_a_votes": 885347,
+          "option_b": "Tell 10 orphans that Christmas is cancelled",
+          "option_b_votes": 805068
+        },
+        {
+          "option_a": "Lose your front teeth in a skateboarding accident",
+          "option_a_votes": 512207,
+          "option_b": "Break your hands on a bike",
+          "option_b_votes": 1162888
+        },
+        {
+          "option_a": "Die from hypothermia (cold)",
+          "option_a_votes": 1174666,
+          "option_b": "Die from hyperthermia (heat)",
+          "option_b_votes": 480848
+        },
+        {
+          "option_a": "Be deaf and have no legs",
+          "option_a_votes": 1327916,
+          "option_b": "Be blind and have no arms",
+          "option_b_votes": 325204
+        },
+        {
+          "option_a": "Be in a car accident that kills only you",
+          "option_a_votes": 1424907,
+          "option_b": "Be responsible for a car accident where you live but your five closest friends and family die",
+          "option_b_votes": 192825
+        },
+        {
+          "option_a": "Have your blood sucked by a vampire",
+          "option_a_votes": 1378969,
+          "option_b": "Have your brain eaten by a zombie",
+          "option_b_votes": 191859
+        },
+        {
+          "option_a": "Be hung by a noose",
+          "option_a_votes": 471172,
+          "option_b": "Be decapitated by a guillotine",
+          "option_b_votes": 1098765
+        },
+        {
+          "option_a": "Be sick for the rest of your life",
+          "option_a_votes": 507016,
+          "option_b": "Kill 2 puppies",
+          "option_b_votes": 1056169
+        },
+        {
+          "option_a": "Be horribly and hopelessly depressed",
+          "option_a_votes": 629126,
+          "option_b": "Have inescapable overwhelming anxiety",
+          "option_b_votes": 907854
+        },
+        {
+          "option_a": "Kill one person you know",
+          "option_a_votes": 545660,
+          "option_b": "Kill three strangers",
+          "option_b_votes": 983670
+        },
+        {
+          "option_a": "Get electrocuted for 10 seconds",
+          "option_a_votes": 521193,
+          "option_b": "Get slapped 20 times",
+          "option_b_votes": 999203
+        },
+        {
+          "option_a": "Death by electric chair",
+          "option_a_votes": 379082,
+          "option_b": "Death by lethal injection",
+          "option_b_votes": 1127721
+        },
+        {
+          "option_a": "Have all fingernails and toenails removed quickly",
+          "option_a_votes": 853588,
+          "option_b": "Deep papercuts on the webbing between each finger and toe slowly",
+          "option_b_votes": 640123
+        }
+      ]
+    },
+    "Appearance": {
+      "fullCount": 96,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Have 50% of your body burned",
+          "option_a_votes": 572516,
+          "option_b": "100% of your body tattooed",
+          "option_b_votes": 1136141
+        },
+        {
+          "option_a": "See how or what created civilization",
+          "option_a_votes": 774736,
+          "option_b": "See how or what ends civilization",
+          "option_b_votes": 915932
+        },
+        {
+          "option_a": "Be 4 feet tall",
+          "option_a_votes": 750156,
+          "option_b": "Be 10 feet tall",
+          "option_b_votes": 927078
+        },
+        {
+          "option_a": "Be attractive, but get punched in the face every morning",
+          "option_a_votes": 1237500,
+          "option_b": "Be ugly",
+          "option_b_votes": 431017
+        },
+        {
+          "option_a": "Have hair covering your entire body",
+          "option_a_votes": 439627,
+          "option_b": "Be completely bald",
+          "option_b_votes": 1228492
+        },
+        {
+          "option_a": "Always be overdressed",
+          "option_a_votes": 1154109,
+          "option_b": "Always be underdressed",
+          "option_b_votes": 498002
+        },
+        {
+          "option_a": "Have a giant birthmark covering 78% of your face",
+          "option_a_votes": 329837,
+          "option_b": "Have a two foot tail",
+          "option_b_votes": 1310435
+        },
+        {
+          "option_a": "Be attractive and poor",
+          "option_a_votes": 916112,
+          "option_b": "Be ugly and rich",
+          "option_b_votes": 702375
+        },
+        {
+          "option_a": "Wear an eyepatch",
+          "option_a_votes": 1261053,
+          "option_b": "Have a peg leg",
+          "option_b_votes": 329721
+        },
+        {
+          "option_a": "Be bald everywhere",
+          "option_a_votes": 922616,
+          "option_b": "Be Albino",
+          "option_b_votes": 663433
+        },
+        {
+          "option_a": "Have your hands switched for Dustpans",
+          "option_a_votes": 365300,
+          "option_b": "Be sweating jam instead of sweat",
+          "option_b_votes": 1212442
+        },
+        {
+          "option_a": "Always be sweating",
+          "option_a_votes": 358390,
+          "option_b": "Always appear shivering cold",
+          "option_b_votes": 1204976
+        },
+        {
+          "option_a": "Wear the same thing every day",
+          "option_a_votes": 435602,
+          "option_b": "Never wear the same clothes twice",
+          "option_b_votes": 1119357
+        },
+        {
+          "option_a": "Have a lisp",
+          "option_a_votes": 1006007,
+          "option_b": "Have a lazy eye",
+          "option_b_votes": 547155
+        },
+        {
+          "option_a": "Always have bad hair",
+          "option_a_votes": 1260026,
+          "option_b": "Always have bad teeth",
+          "option_b_votes": 288782
+        },
+        {
+          "option_a": "Have knee length hair",
+          "option_a_votes": 851244,
+          "option_b": "Have a 1 foot tall mohawk",
+          "option_b_votes": 693913
+        },
+        {
+          "option_a": "Have extremely muscular arms",
+          "option_a_votes": 1057107,
+          "option_b": "Have extremely muscular legs",
+          "option_b_votes": 486171
+        },
+        {
+          "option_a": "Be Emo",
+          "option_a_votes": 674597,
+          "option_b": "Be Gothic",
+          "option_b_votes": 838182
+        },
+        {
+          "option_a": "Yell a swear between every word",
+          "option_a_votes": 604880,
+          "option_b": "Get punched in the face after every swear",
+          "option_b_votes": 894384
+        },
+        {
+          "option_a": "Always wear a top hat",
+          "option_a_votes": 1026260,
+          "option_b": "Always wear a giant clock necklace",
+          "option_b_votes": 462285
+        }
+      ]
+    },
+    "Food & Drink": {
+      "fullCount": 67,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Have a Pepsi",
+          "option_a_votes": 637479,
+          "option_b": "Have a Coke",
+          "option_b_votes": 1184397
+        },
+        {
+          "option_a": "Eat fruit",
+          "option_a_votes": 1531854,
+          "option_b": "Eat vegetables",
+          "option_b_votes": 211759
+        },
+        {
+          "option_a": "Eat Lay's Potato Chips",
+          "option_a_votes": 551588,
+          "option_b": "Eat Pringles",
+          "option_b_votes": 1179774
+        },
+        {
+          "option_a": "Skittles",
+          "option_a_votes": 872252,
+          "option_b": "M&M's",
+          "option_b_votes": 797880
+        },
+        {
+          "option_a": "Punch a pilgrim",
+          "option_a_votes": 664044,
+          "option_b": "Eat an avocado",
+          "option_b_votes": 1005257
+        },
+        {
+          "option_a": "Only eat",
+          "option_a_votes": 900302,
+          "option_b": "Only drink",
+          "option_b_votes": 748186
+        },
+        {
+          "option_a": "Save Abraham Lincoln",
+          "option_a_votes": 880150,
+          "option_b": "Save J.F.K",
+          "option_b_votes": 763389
+        },
+        {
+          "option_a": "Be allergic to peanut butter",
+          "option_a_votes": 1341197,
+          "option_b": "Be allergic to chocolate",
+          "option_b_votes": 285309
+        },
+        {
+          "option_a": "Stare at the sun for 2 minutes",
+          "option_a_votes": 979355,
+          "option_b": "Drink a liter of scalding water",
+          "option_b_votes": 614929
+        },
+        {
+          "option_a": "Snort one crushed up Altoid Mint (spearmint)",
+          "option_a_votes": 574004,
+          "option_b": "Take a shot (1.5 oz.) of Tabasco Sauce",
+          "option_b_votes": 1004766
+        },
+        {
+          "option_a": "Eat fast food burgers every night",
+          "option_a_votes": 648633,
+          "option_b": "Eat Chinese Take-out every night",
+          "option_b_votes": 899301
+        },
+        {
+          "option_a": "Shotgun a beer",
+          "option_a_votes": 1001680,
+          "option_b": "Funnel a beer",
+          "option_b_votes": 513217
+        },
+        {
+          "option_a": "Eat a five course meal in front of 10 starving children",
+          "option_a_votes": 557222,
+          "option_b": "Steal the bucket from 5 salvation army Santas",
+          "option_b_votes": 945083
+        },
+        {
+          "option_a": "Only eat breakfast cereal",
+          "option_a_votes": 611100,
+          "option_b": "Only eat pasta",
+          "option_b_votes": 885275
+        },
+        {
+          "option_a": "Eat nothing but ketchup for a week",
+          "option_a_votes": 1193160,
+          "option_b": "Eat nothing but mustard for a week",
+          "option_b_votes": 300582
+        },
+        {
+          "option_a": "Eat 50 chicken nuggets",
+          "option_a_votes": 923200,
+          "option_b": "Eat 6 Big Macs",
+          "option_b_votes": 552681
+        },
+        {
+          "option_a": "Eat only KFC for a month",
+          "option_a_votes": 829158,
+          "option_b": "Eat only Taco Bell for a month",
+          "option_b_votes": 640107
+        },
+        {
+          "option_a": "Have to kill the animal for any meat you eat",
+          "option_a_votes": 919095,
+          "option_b": "Never eat meat again",
+          "option_b_votes": 540645
+        },
+        {
+          "option_a": "Have a personal chef",
+          "option_a_votes": 853501,
+          "option_b": "Have a personal masseuse",
+          "option_b_votes": 583157
+        },
+        {
+          "option_a": "Only drink Starbucks coffee",
+          "option_a_votes": 1061647,
+          "option_b": "Only drink Dunkin Donuts coffee",
+          "option_b_votes": 374217
+        }
+      ]
+    },
+    "Lifestyle": {
+      "fullCount": 204,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Be a cat",
+          "option_a_votes": 666570,
+          "option_b": "Be a dog",
+          "option_b_votes": 1147259
+        },
+        {
+          "option_a": "Have to sleep 3 hours everyday",
+          "option_a_votes": 899633,
+          "option_b": "Have to sleep 15 hours everyday",
+          "option_b_votes": 877992
+        },
+        {
+          "option_a": "Always be hot",
+          "option_a_votes": 764460,
+          "option_b": "Always be cold",
+          "option_b_votes": 1001650
+        },
+        {
+          "option_a": "Be in jail for a year",
+          "option_a_votes": 570781,
+          "option_b": "Live in complete isolation in the mountains for a year",
+          "option_b_votes": 1187173
+        },
+        {
+          "option_a": "Give a speech to the whole nation",
+          "option_a_votes": 1587826,
+          "option_b": "Have to sleep with tarantulas on your bed",
+          "option_b_votes": 163392
+        },
+        {
+          "option_a": "Live without your cell phone",
+          "option_a_votes": 395985,
+          "option_b": "Live without your iPod",
+          "option_b_votes": 1354059
+        },
+        {
+          "option_a": "Have a stomach ache",
+          "option_a_votes": 838865,
+          "option_b": "Have a headache",
+          "option_b_votes": 905985
+        },
+        {
+          "option_a": "Be black in a white neighborhood",
+          "option_a_votes": 1171215,
+          "option_b": "Be white in a black neighborhood",
+          "option_b_votes": 542294
+        },
+        {
+          "option_a": "Live in Boston",
+          "option_a_votes": 450306,
+          "option_b": "Live in New York City",
+          "option_b_votes": 1250897
+        },
+        {
+          "option_a": "Spend a year alone in a deep sea submarine",
+          "option_a_votes": 525993,
+          "option_b": "Spend a year alone in a space station",
+          "option_b_votes": 1171727
+        },
+        {
+          "option_a": "Have a high salary in a job you hate",
+          "option_a_votes": 937626,
+          "option_b": "Have a low salary in a job you love",
+          "option_b_votes": 748653
+        },
+        {
+          "option_a": "Be unable to experience sadness",
+          "option_a_votes": 889443,
+          "option_b": "Be unable to experience anger",
+          "option_b_votes": 783285
+        },
+        {
+          "option_a": "Stop showering",
+          "option_a_votes": 602474,
+          "option_b": "Stop brushing your teeth.",
+          "option_b_votes": 1067530
+        },
+        {
+          "option_a": "Not be able to taste",
+          "option_a_votes": 397079,
+          "option_b": "Not be able to smell",
+          "option_b_votes": 1267099
+        },
+        {
+          "option_a": "Live in a treehouse",
+          "option_a_votes": 972942,
+          "option_b": "Live in a floating boathouse",
+          "option_b_votes": 688742
+        },
+        {
+          "option_a": "Spend a day in the Sahara Desert",
+          "option_a_votes": 577282,
+          "option_b": "Spend a day in the North Pole",
+          "option_b_votes": 1079356
+        },
+        {
+          "option_a": "Only be able to whisper",
+          "option_a_votes": 1178936,
+          "option_b": "Only be able to shout",
+          "option_b_votes": 476924
+        },
+        {
+          "option_a": "Never be able to leave your native country",
+          "option_a_votes": 942712,
+          "option_b": "Never be able to drive",
+          "option_b_votes": 697977
+        },
+        {
+          "option_a": "Live in the past",
+          "option_a_votes": 476284,
+          "option_b": "Live in the future",
+          "option_b_votes": 1159763
+        },
+        {
+          "option_a": "Be an elephant",
+          "option_a_votes": 1053422,
+          "option_b": "Be a mouse",
+          "option_b_votes": 581344
+        }
+      ]
+    },
+    "Fantasy": {
+      "fullCount": 68,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Be Batman",
+          "option_a_votes": 955933,
+          "option_b": "Be Superman",
+          "option_b_votes": 832867
+        },
+        {
+          "option_a": "Become a superhero",
+          "option_a_votes": 1290573,
+          "option_b": "Become a supervillian",
+          "option_b_votes": 465102
+        },
+        {
+          "option_a": "Be a centaur",
+          "option_a_votes": 908274,
+          "option_b": "Be a mermaid/man",
+          "option_b_votes": 803403
+        },
+        {
+          "option_a": "Have a lightsaber",
+          "option_a_votes": 1082338,
+          "option_b": "Have a helper monkey",
+          "option_b_votes": 611447
+        },
+        {
+          "option_a": "Have Pokemon be real",
+          "option_a_votes": 813909,
+          "option_b": "Superheroes exist",
+          "option_b_votes": 875637
+        },
+        {
+          "option_a": "Go to heaven or hell",
+          "option_a_votes": 690588,
+          "option_b": "Be reborn into a better/worse life",
+          "option_b_votes": 961052
+        },
+        {
+          "option_a": "Be Wilma Flintstone",
+          "option_a_votes": 449804,
+          "option_b": "Be Velma from the Scooby Doo mystery gang",
+          "option_b_votes": 1161315
+        },
+        {
+          "option_a": "Be a Vampire",
+          "option_a_votes": 781110,
+          "option_b": "Be a Werewolf",
+          "option_b_votes": 819589
+        },
+        {
+          "option_a": "Be a Jedi",
+          "option_a_votes": 1145746,
+          "option_b": "Be a Sith",
+          "option_b_votes": 399568
+        },
+        {
+          "option_a": "Be a Slytherin",
+          "option_a_votes": 410382,
+          "option_b": "Be a Gryffindor",
+          "option_b_votes": 1116274
+        },
+        {
+          "option_a": "Attempt to survive a computer uprising (Terminator)",
+          "option_a_votes": 525327,
+          "option_b": "Attempt to survive a zombie outbreak (Dawn of the Dead)",
+          "option_b_votes": 995446
+        },
+        {
+          "option_a": "Magically flip genders every year",
+          "option_a_votes": 897477,
+          "option_b": "Be forced to move and start fresh every year",
+          "option_b_votes": 608840
+        },
+        {
+          "option_a": "Discover the Loch Ness Monster",
+          "option_a_votes": 898996,
+          "option_b": "Discover Sasquatch",
+          "option_b_votes": 574541
+        },
+        {
+          "option_a": "Be godzilla",
+          "option_a_votes": 839087,
+          "option_b": "Be king kong",
+          "option_b_votes": 632839
+        },
+        {
+          "option_a": "Live in the Star Wars universe",
+          "option_a_votes": 1246075,
+          "option_b": "Live in the Star Trek universe",
+          "option_b_votes": 220340
+        },
+        {
+          "option_a": "Play a game of Quidditch",
+          "option_a_votes": 773894,
+          "option_b": "Take a field trip with Ms. Frizzle",
+          "option_b_votes": 675332
+        },
+        {
+          "option_a": "Fly like Superman",
+          "option_a_votes": 942155,
+          "option_b": "Travel like Spiderman",
+          "option_b_votes": 462618
+        },
+        {
+          "option_a": "Be a wizard",
+          "option_a_votes": 1108618,
+          "option_b": "Be a vampire",
+          "option_b_votes": 292164
+        },
+        {
+          "option_a": "Be Harry Potter",
+          "option_a_votes": 688918,
+          "option_b": "Be Luke Skywalker",
+          "option_b_votes": 709905
+        },
+        {
+          "option_a": "Be stalked by a ghost for your entire life",
+          "option_a_votes": 1177093,
+          "option_b": "Be stalked by a demon for three days then die",
+          "option_b_votes": 207009
+        }
+      ]
+    },
+    "Skills": {
+      "fullCount": 48,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Run 26 miles",
+          "option_a_votes": 915383,
+          "option_b": "Swim 5 miles",
+          "option_b_votes": 901412
+        },
+        {
+          "option_a": "Dance like Michael Jackson",
+          "option_a_votes": 1026161,
+          "option_b": "Sing like Freddie Mercury",
+          "option_b_votes": 711077
+        },
+        {
+          "option_a": "Speak every language except the language of the country you're currently in",
+          "option_a_votes": 597685,
+          "option_b": "Speak only the language of the country you're in, but know the meaning of every single word in that language",
+          "option_b_votes": 1084849
+        },
+        {
+          "option_a": "Not know how to read",
+          "option_a_votes": 423608,
+          "option_b": "Not know how to write",
+          "option_b_votes": 1242524
+        },
+        {
+          "option_a": "Be a genius in a world of unintelligent people",
+          "option_a_votes": 1296892,
+          "option_b": "Be unintelligent in a world of geniuses",
+          "option_b_votes": 351806
+        },
+        {
+          "option_a": "Be a nerd",
+          "option_a_votes": 992114,
+          "option_b": "Be a jock",
+          "option_b_votes": 647666
+        },
+        {
+          "option_a": "Be an excellent singer",
+          "option_a_votes": 1017578,
+          "option_b": "Be a superb writer",
+          "option_b_votes": 621703
+        },
+        {
+          "option_a": "Fight Jackie Chan",
+          "option_a_votes": 1090913,
+          "option_b": "Fight Jet Li",
+          "option_b_votes": 544593
+        },
+        {
+          "option_a": "Skydive",
+          "option_a_votes": 1223977,
+          "option_b": "Bungie Jump",
+          "option_b_votes": 406476
+        },
+        {
+          "option_a": "String your opponent along for the entire fight",
+          "option_a_votes": 410697,
+          "option_b": "Crush them from the beginning",
+          "option_b_votes": 1199516
+        },
+        {
+          "option_a": "Have a British accent",
+          "option_a_votes": 991783,
+          "option_b": "Have an Australian accent",
+          "option_b_votes": 615289
+        },
+        {
+          "option_a": "Be painted by Van Gogh",
+          "option_a_votes": 462554,
+          "option_b": "Be painted by Da Vinci",
+          "option_b_votes": 1121946
+        },
+        {
+          "option_a": "Be the head chef on a luxury cruise liner",
+          "option_a_votes": 626976,
+          "option_b": "Be the head chef in the White House",
+          "option_b_votes": 937802
+        },
+        {
+          "option_a": "Be a police officer",
+          "option_a_votes": 997556,
+          "option_b": "Be a firefighter",
+          "option_b_votes": 550838
+        },
+        {
+          "option_a": "Teach history",
+          "option_a_votes": 927524,
+          "option_b": "Teach math",
+          "option_b_votes": 615900
+        },
+        {
+          "option_a": "Be a graphic designer",
+          "option_a_votes": 863363,
+          "option_b": "Be an architect",
+          "option_b_votes": 666707
+        },
+        {
+          "option_a": "Run fast",
+          "option_a_votes": 1125787,
+          "option_b": "Jump high",
+          "option_b_votes": 381258
+        },
+        {
+          "option_a": "Be a horse jockey",
+          "option_a_votes": 395582,
+          "option_b": "Be a NASCAR driver",
+          "option_b_votes": 1078257
+        },
+        {
+          "option_a": "Be an olympic tennis player",
+          "option_a_votes": 857528,
+          "option_b": "Be an olympic table tennis player",
+          "option_b_votes": 570873
+        },
+        {
+          "option_a": "Only write in cursive",
+          "option_a_votes": 944389,
+          "option_b": "ONLY TYPE IN CAPS",
+          "option_b_votes": 477013
+        }
+      ]
+    },
+    "Entertainment": {
+      "fullCount": 97,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Watch only dramas for the rest of your life",
+          "option_a_votes": 254102,
+          "option_b": "Watch only comedies for the rest of your life",
+          "option_b_votes": 1510175
+        },
+        {
+          "option_a": "Watch your favorite movie on repeat for a full day",
+          "option_a_votes": 1282970,
+          "option_b": "Watch Nick and Norah's Infinite Playlist once",
+          "option_b_votes": 381582
+        },
+        {
+          "option_a": "Stop using YouTube",
+          "option_a_votes": 299587,
+          "option_b": "Stop using Facebook",
+          "option_b_votes": 1353005
+        },
+        {
+          "option_a": "Only speak in questions",
+          "option_a_votes": 442938,
+          "option_b": "Only speak in movie quotes",
+          "option_b_votes": 1147927
+        },
+        {
+          "option_a": "Watch Batman (1989)",
+          "option_a_votes": 389031,
+          "option_b": "Watch The Dark Knight (2008)",
+          "option_b_votes": 1194413
+        },
+        {
+          "option_a": "Only listen to bagpipe music",
+          "option_a_votes": 445833,
+          "option_b": "Only listen to banjo music",
+          "option_b_votes": 1117725
+        },
+        {
+          "option_a": "Be a contestant on Wheel of Fortune",
+          "option_a_votes": 1144756,
+          "option_b": "Be a contestant on Jeopardy",
+          "option_b_votes": 401400
+        },
+        {
+          "option_a": "Only use Windows",
+          "option_a_votes": 1222595,
+          "option_b": "Only use Macintosh",
+          "option_b_votes": 318486
+        },
+        {
+          "option_a": "Watch LOST",
+          "option_a_votes": 626954,
+          "option_b": "Watch The Office",
+          "option_b_votes": 889775
+        },
+        {
+          "option_a": "Never again play a game on your computer",
+          "option_a_votes": 941518,
+          "option_b": "Never again play a console or portable device game",
+          "option_b_votes": 568118
+        },
+        {
+          "option_a": "Hang out with Pooh Bear",
+          "option_a_votes": 680350,
+          "option_b": "Hang out with Baloo from the Jungle Book",
+          "option_b_votes": 825462
+        },
+        {
+          "option_a": "Only read romance novels",
+          "option_a_votes": 724654,
+          "option_b": "Only read textbooks",
+          "option_b_votes": 779536
+        },
+        {
+          "option_a": "Watch Seinfeld",
+          "option_a_votes": 270767,
+          "option_b": "Watch The Simpsons",
+          "option_b_votes": 1225440
+        },
+        {
+          "option_a": "Be Gonzo",
+          "option_a_votes": 259136,
+          "option_b": "Be The Cookie Monster",
+          "option_b_votes": 1220285
+        },
+        {
+          "option_a": "Only listen to The Beatles",
+          "option_a_votes": 903562,
+          "option_b": "Only listen to The Rolling Stones",
+          "option_b_votes": 575362
+        },
+        {
+          "option_a": "Only speak in haiku",
+          "option_a_votes": 379589,
+          "option_b": "Only speak in song lyrics",
+          "option_b_votes": 1071913
+        },
+        {
+          "option_a": "Always dissappoint people",
+          "option_a_votes": 573124,
+          "option_b": "Always anger people",
+          "option_b_votes": 877160
+        },
+        {
+          "option_a": "Play Goldeneye (N64)",
+          "option_a_votes": 463805,
+          "option_b": "Play Halo (Xbox)",
+          "option_b_votes": 972194
+        },
+        {
+          "option_a": "Listen to everything but your favorite musician/artist",
+          "option_a_votes": 618352,
+          "option_b": "Listen to only your favorite musician/artist",
+          "option_b_votes": 800300
+        },
+        {
+          "option_a": "Watch a volcano erupt",
+          "option_a_votes": 730552,
+          "option_b": "Witness a meteor hitting Earth",
+          "option_b_votes": 683622
+        }
+      ]
+    },
+    "Relationships": {
+      "fullCount": 58,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Have a child in 7th grade and raise it",
+          "option_a_votes": 885881,
+          "option_b": "Never have kids/adopt",
+          "option_b_votes": 838974
+        },
+        {
+          "option_a": "Have loved and lost",
+          "option_a_votes": 1217965,
+          "option_b": "Never loved at all",
+          "option_b_votes": 468285
+        },
+        {
+          "option_a": "Have two sets of twins",
+          "option_a_votes": 1301104,
+          "option_b": "Quadruplets",
+          "option_b_votes": 382318
+        },
+        {
+          "option_a": "Be infertile",
+          "option_a_votes": 1341903,
+          "option_b": "Have a child that passes away before age 5",
+          "option_b_votes": 312276
+        },
+        {
+          "option_a": "Be loved",
+          "option_a_votes": 1347176,
+          "option_b": "Be feared",
+          "option_b_votes": 291040
+        },
+        {
+          "option_a": "Get caught cheating",
+          "option_a_votes": 491427,
+          "option_b": "Catch your partner cheating",
+          "option_b_votes": 1088357
+        },
+        {
+          "option_a": "Marry at age ten",
+          "option_a_votes": 824058,
+          "option_b": "Never marry at all",
+          "option_b_votes": 734104
+        },
+        {
+          "option_a": "Have no family",
+          "option_a_votes": 565416,
+          "option_b": "Have no friends",
+          "option_b_votes": 978471
+        },
+        {
+          "option_a": "Raise a family with Samuel L. Jackson",
+          "option_a_votes": 670105,
+          "option_b": "Raise a family with Vin Diesel",
+          "option_b_votes": 827448
+        },
+        {
+          "option_a": "Have triplets",
+          "option_a_votes": 495626,
+          "option_b": "Be a triplet",
+          "option_b_votes": 957821
+        },
+        {
+          "option_a": "Have a lover who only speaks on Mondays",
+          "option_a_votes": 1048381,
+          "option_b": "Have a lover who only speaks in Pig Latin",
+          "option_b_votes": 376576
+        },
+        {
+          "option_a": "Be adopted",
+          "option_a_votes": 597068,
+          "option_b": "Adopt a child right now",
+          "option_b_votes": 783564
+        },
+        {
+          "option_a": "Only date people with severe OCD",
+          "option_a_votes": 992211,
+          "option_b": "Only date chain smokers",
+          "option_b_votes": 372582
+        },
+        {
+          "option_a": "Be a spouse of a polygamist",
+          "option_a_votes": 606749,
+          "option_b": "Never have a relationship last longer than 2 years",
+          "option_b_votes": 757089
+        },
+        {
+          "option_a": "Get gas every time you are around the sex you are attracted to",
+          "option_a_votes": 605976,
+          "option_b": "Burp after every time you kiss",
+          "option_b_votes": 753517
+        },
+        {
+          "option_a": "Be close with only one person, and only see them on Sundays",
+          "option_a_votes": 874327,
+          "option_b": "Know many people and see them every day, but not be particularly close with any",
+          "option_b_votes": 481990
+        },
+        {
+          "option_a": "Have to learn how to walk again",
+          "option_a_votes": 939480,
+          "option_b": "Have to learn about every date in history and why they were important.",
+          "option_b_votes": 413626
+        },
+        {
+          "option_a": "Have grown up without a father",
+          "option_a_votes": 992352,
+          "option_b": "Have grown up without a mother",
+          "option_b_votes": 357599
+        },
+        {
+          "option_a": "Lose your preferred thumb",
+          "option_a_votes": 816114,
+          "option_b": "Lose the index and middle finger of your preferred hand",
+          "option_b_votes": 530625
+        },
+        {
+          "option_a": "Produce a low-budget film with your best friends and have the time of your life",
+          "option_a_votes": 632896,
+          "option_b": "Produce a Hollywood blockbuster with people you detest and make a ton of money",
+          "option_b_votes": 707592
+        }
+      ]
+    },
+    "Superpowers": {
+      "fullCount": 22,
+      "exposedCount": 20,
+      "questions": [
+        {
+          "option_a": "Be invincible",
+          "option_a_votes": 968938,
+          "option_b": "Be invisible",
+          "option_b_votes": 776457
+        },
+        {
+          "option_a": "Be able to fly",
+          "option_a_votes": 1239539,
+          "option_b": "Be able to breathe underwater",
+          "option_b_votes": 482982
+        },
+        {
+          "option_a": "Be telekinetic",
+          "option_a_votes": 931031,
+          "option_b": "Be telepathic",
+          "option_b_votes": 769343
+        },
+        {
+          "option_a": "Have the ability to teleport",
+          "option_a_votes": 834119,
+          "option_b": "Be able to time travel",
+          "option_b_votes": 821363
+        },
+        {
+          "option_a": "Have X-ray Vision",
+          "option_a_votes": 1043342,
+          "option_b": "Have laser vision",
+          "option_b_votes": 536149
+        },
+        {
+          "option_a": "Control the emotions of those around you",
+          "option_a_votes": 774381,
+          "option_b": "Control the weather",
+          "option_b_votes": 720792
+        },
+        {
+          "option_a": "Have stretchable legs",
+          "option_a_votes": 345087,
+          "option_b": "Have stretchable arms",
+          "option_b_votes": 1140857
+        },
+        {
+          "option_a": "Have the sense of smell of a dog",
+          "option_a_votes": 190098,
+          "option_b": "Have the eyesight of an eagle",
+          "option_b_votes": 1236893
+        },
+        {
+          "option_a": "See the future",
+          "option_a_votes": 762670,
+          "option_b": "Change the past",
+          "option_b_votes": 615114
+        },
+        {
+          "option_a": "Have everything you touch turn to dust",
+          "option_a_votes": 113314,
+          "option_b": "Have everything you touch turn to gold",
+          "option_b_votes": 1250601
+        },
+        {
+          "option_a": "Be able to run 40 miles per hour",
+          "option_a_votes": 840502,
+          "option_b": "Own a car",
+          "option_b_votes": 505729
+        },
+        {
+          "option_a": "Have your house burnt down by a fire breathing dragon",
+          "option_a_votes": 670523,
+          "option_b": "Have your house blown down by the big bad wolf",
+          "option_b_votes": 660443
+        },
+        {
+          "option_a": "Be psychokinetic",
+          "option_a_votes": 539032,
+          "option_b": "Be telepathic",
+          "option_b_votes": 770632
+        },
+        {
+          "option_a": "Shrink to 1 inch",
+          "option_a_votes": 621492,
+          "option_b": "Grow to 3 stories",
+          "option_b_votes": 675376
+        },
+        {
+          "option_a": "Have ice breath",
+          "option_a_votes": 666884,
+          "option_b": "Have fire breath",
+          "option_b_votes": 609537
+        },
+        {
+          "option_a": "Be able to kill anyone by writing their name in a notebook",
+          "option_a_votes": 316332,
+          "option_b": "Be able to heal anyone of any injury/illness, or revive the dead via a kiss",
+          "option_b_votes": 952509
+        },
+        {
+          "option_a": "Be able to travel at light speed",
+          "option_a_votes": 468244,
+          "option_b": "Be able to read minds",
+          "option_b_votes": 784976
+        },
+        {
+          "option_a": "Have the ability to pull out of your pockets the exact change needed for ANY purchase",
+          "option_a_votes": 399933,
+          "option_b": "Have the ability to discreetly read minds",
+          "option_b_votes": 845427
+        },
+        {
+          "option_a": "Be able to control/talk to machines",
+          "option_a_votes": 407066,
+          "option_b": "Be able to produce an unlimited amount electricity",
+          "option_b_votes": 825402
+        },
+        {
+          "option_a": "See into the future",
+          "option_a_votes": 2,
+          "option_b": "Have the ability to go into the past",
+          "option_b_votes": 5
+        }
+      ]
+    }
+  }
+}

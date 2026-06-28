@@ -590,12 +590,20 @@ export default function Page() {
               Serviços de Audiovisual LTDA
             </span>
           </div>
-          <a
-            href="mailto:suporte@earthquakedigital.com.br"
-            className="text-[0.85rem] normal-case tracking-normal [font-family:var(--v1-readable)] text-[#F7F3EA]/80 no-underline hover:text-[#FF2D95] hover:no-underline"
-          >
-            suporte@earthquakedigital.com.br
-          </a>
+          <div className="flex flex-wrap items-center gap-5">
+            <Link
+              href="/would-you-rather/questions/"
+              className="text-[0.85rem] normal-case tracking-normal [font-family:var(--v1-readable)] text-[#F7F3EA]/80 no-underline hover:text-[#FF2D95] hover:no-underline"
+            >
+              Would You Rather questions
+            </Link>
+            <a
+              href="mailto:suporte@earthquakedigital.com.br"
+              className="text-[0.85rem] normal-case tracking-normal [font-family:var(--v1-readable)] text-[#F7F3EA]/80 no-underline hover:text-[#FF2D95] hover:no-underline"
+            >
+              suporte@earthquakedigital.com.br
+            </a>
+          </div>
         </div>
       </footer>
     </main>

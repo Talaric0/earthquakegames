@@ -21,6 +21,7 @@ import screenParty from "./assets/screen-party.png"
 import screenCategories from "./assets/screen-categories.png"
 
 import { SITE } from "@/lib/site"
+import { categoryByName } from "@/lib/wyr-categories"
 import { HeroPhoneSlideshow } from "./HeroPhoneSlideshow"
 
 const WYR_DESCRIPTION =
@@ -709,7 +710,9 @@ export default function WouldYouRather() {
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-            {CATEGORIES.map((c) => (
+            {CATEGORIES.map((c) => {
+              const hub = categoryByName(c.name)
+              return (
               <div
                 key={c.name}
                 className={cn(
@@ -734,6 +737,16 @@ export default function WouldYouRather() {
                       : undefined
                 }
               >
+                {hub && (
+                  <Link
+                    href={`/would-you-rather/questions/${hub.slug}/`}
+                    className="absolute inset-0 z-20"
+                  >
+                    <span className="sr-only">
+                      {c.name} would you rather questions
+                    </span>
+                  </Link>
+                )}
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex items-start gap-4">
                     <div
@@ -794,7 +807,18 @@ export default function WouldYouRather() {
                   />
                 )}
               </div>
-            ))}
+              )
+            })}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link
+              href="/would-you-rather/questions/"
+              className="inline-flex items-center gap-2 rounded-full border border-[#F7F3EA]/25 px-6 py-3 text-[0.72rem] uppercase tracking-[0.3em] text-[#F7F3EA] no-underline transition-all hover:border-[#FFDE59] hover:text-[#FFDE59] hover:no-underline"
+            >
+              Browse all questions
+              <span aria-hidden>→</span>
+            </Link>
           </div>
         </div>
       </section>
