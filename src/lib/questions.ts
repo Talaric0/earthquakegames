@@ -27,3 +27,6 @@ export function topQuestions(
 
 export const catalogueTotal = data.totals.fullCatalogue
 export const exposedTotal = data.totals.exposed
+
+/** When the question/vote dataset was last regenerated from the app data. */
+export const contentUpdatedAt = new Date(data.generatedAt)

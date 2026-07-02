@@ -4,11 +4,14 @@ import { notFound } from "next/navigation"
 
 import { SITE } from "@/lib/site"
 import { CATEGORIES, categoryBySlug } from "@/lib/wyr-categories"
-import { getCategoryData } from "@/lib/questions"
+import { getCategoryData, contentUpdatedAt } from "@/lib/questions"
 import { QuestionCard } from "@/components/wyr/question-card"
 import { Breadcrumbs, breadcrumbJsonLd } from "@/components/wyr/breadcrumbs"
 
 export const dynamicParams = false
+
+/** The questions hub shipped on this date (git 22e376f). */
+const WYR_HUB_PUBLISHED = "2026-06-28"
 
 export function generateStaticParams() {
   return CATEGORIES.map((c) => ({ category: c.slug }))
@@ -64,11 +67,11 @@ export default async function CategoryPage({ params }: Props) {
   const faqs = [
     {
       q: `What are ${cat.name.toLowerCase()} would you rather questions?`,
-      a: `${cat.intro}`,
+      a: `${cat.faqDefinition} The full Would You Rather catalogue currently holds ${data?.fullCount ?? questions.length} ${cat.name.toLowerCase()} dilemmas, and ${questions.length} of them are free to play right on this page.`,
     },
     {
       q: "How are the vote percentages worked out?",
-      a: "Every percentage comes from real votes cast by Would You Rather players. Tap an option on this page to reveal the global split for that dilemma.",
+      a: "Every percentage on this page comes from real votes cast inside the Would You Rather app, where players have recorded more than 1.1 billion votes across the full catalogue of dilemmas. Percentages are cumulative lifetime tallies, not snapshots: each dilemma's split is calculated from every vote it has ever received, and most questions on this page carry well over a million votes each, so no single vote can swing the result. Nothing is weighted, curated or edited — if the world split 70/30 on a dilemma, that is exactly how the world voted. The figures shown here are refreshed from the live app data whenever this page is updated. Tap an option on any card to reveal the current global split for that dilemma.",
     },
     {
       q: `Where can I find more ${cat.name.toLowerCase()} questions?`,
@@ -83,6 +86,8 @@ export default async function CategoryPage({ params }: Props) {
       {
         "@type": "ItemList",
         name: cat.h1,
+        datePublished: WYR_HUB_PUBLISHED,
+        dateModified: contentUpdatedAt.toISOString(),
         numberOfItems: questions.length,
         itemListElement: questions.map((qq, i) => ({
           "@type": "ListItem",
@@ -92,6 +97,8 @@ export default async function CategoryPage({ params }: Props) {
       },
       {
         "@type": "FAQPage",
+        datePublished: WYR_HUB_PUBLISHED,
+        dateModified: contentUpdatedAt.toISOString(),
         mainEntity: faqs.map((f) => ({
           "@type": "Question",
           name: f.q,
@@ -125,6 +132,16 @@ export default async function CategoryPage({ params }: Props) {
               style={{ color: cat.accent }}
             >
               {data?.fullCount ?? questions.length} questions
+            </span>
+            <span className="text-[0.65rem] tracking-[0.3em] text-[#F7F3EA]/40 uppercase">
+              Updated{" "}
+              <time dateTime={contentUpdatedAt.toISOString()}>
+                {contentUpdatedAt.toLocaleDateString("en-GB", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                })}
+              </time>
             </span>
           </div>
           <h1 className="text-[clamp(2rem,6vw,3.6rem)] leading-[0.92] [font-family:var(--v1-display)] uppercase">
